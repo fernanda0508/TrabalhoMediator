@@ -14,13 +14,7 @@ namespace TesteGrupoFace
 
         public DateTime DataEnvio { get; set; }
 
-        public Mensagem(string conteudo, IntegranteGrupo remetente)
-        {
-            Conteudo = conteudo;
-            Remetente = remetente;
-            DataEnvio = DateTime.Now;
-
-        }
+       
       
     }
 }

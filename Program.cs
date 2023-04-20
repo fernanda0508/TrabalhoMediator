@@ -12,14 +12,6 @@ namespace TesteGrupoFace
         {
             GrupoMeditor grupo = new GrupoMeditor();
 
-            IntegranteGrupo alice = new IntegranteGrupo("Alice", grupo);
-            IntegranteGrupo bob = new IntegranteGrupo("Bob", grupo);
-            IntegranteGrupo charlie = new IntegranteGrupo("Charlie", grupo);
-
-
-            alice.EnviarMensagem("Olá pessoal");
-
-
 
         }
     }
